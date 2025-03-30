@@ -8,7 +8,7 @@
 
 ###
 
-<p align="left">Soy Emma (Violet's Version un Desarrolador que le apasiona el descubrir cosas nuvas y crearlas en mi tiempo libre :)</p>
+<p align="left">Soy Emma (Violet's Version) un Desarrolador que le apasiona el descubrir cosas nuevas y crearlas en mi tiempo libre :)</p>
 
 ###
 
@@ -41,14 +41,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Elpapiema&locale=es&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=merko&hide_border=false&order=2" height="150" alt="languages graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Elpapiema&radius=16&theme=tokyo-night&area=true&order=5&hide_border=true&hide_title=false" height="300" alt="activity-graph graph"  />
 </div>
-
-###
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Elpapiema/Elpapiema/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Elpapiema/Elpapiema/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Elpapiema/Elpapiema/output/pacman-contribution-graph.svg">
-</picture>
 
 ###
 
