@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Presentación</title>
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=800&q=80") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      width: 90%;
+      max-width: 400px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 1.5s ease;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+
+    .card h1 {
+      font-size: 1.8rem;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-bottom: 20px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 15px;
+      background: #ff6f61;
+      border: none;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-decoration: none;
+    }
+
+    .btn i {
+      font-size: 1.1rem;
+    }
+
+    .btn:hover {
+      background: #ff3b2e;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Fondo especial para escritorio */
+    @media (min-width: 768px) {
+      body {
+        background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80") no-repeat center center fixed;
+        background-size: cover;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Foto de perfil desde GitHub -->
+    <img src="https://github.com/Elpapiema.png" alt="Foto de perfil" class="profile-pic">
+
+    <h1>Emma (Violet's Version)</h1>
+    <p>Desarrollador | Bots de WhatsApp | Innovación digital 🚀</p>
+
+    <!-- Botones de redes con iconos -->
+    <div class="social-links">
+      <a href="https://github.com/Elpapiema" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://x.com" class="btn" target="_blank"><i class="fab fa-x-twitter"></i> Twitter/X</a>
+      <a href="https://t.me" class="btn" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+      <a href="mailto:tuemail@ejemplo.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://linkedin.com" class="btn" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+    </div>
+  </div>
+</body>
+</html>
